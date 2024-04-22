@@ -1,0 +1,27 @@
+---
+import Card from "./Card.astro";
+import "../styles/styles.css"
+---
+<div id="features">
+<h2>Features</h2>
+<div id="card">
+<Card title="AI Notebook" body="for Linux" href="#" />
+<Card title="AI Assistant" body="for Linux" href="#" />
+</div>
+</div>
+<style>
+    #features{
+        text-align: center;
+    }
+    h2{
+        font-size: 50px;
+        margin-top: 10px;
+    }
+    #card{
+        padding: 50px 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 80px;
+        justify-content: center;
+    }
+</style>

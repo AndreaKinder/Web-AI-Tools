@@ -1,0 +1,24 @@
+---
+import "../styles/styles.css"
+import svgEmoji from "/public/emoji.svg?raw"
+---
+<div id="home">
+    <h1>
+        <Fragment set:html={svgEmoji} />
+        Hub AI Tools
+    </h1>
+</div>
+<style>
+    div{
+        margin: 0%;
+        width: 100%;
+        padding: 120px 0;
+        text-align: center;
+        background: linear-gradient(-45deg, #dadada, #f7f7f7, #c5c5c5);
+        border-bottom: black 1px solid;
+    }
+    h1{
+        font-size: 80px;
+        color: black;
+    }
+</style>
